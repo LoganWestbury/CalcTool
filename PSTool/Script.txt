@@ -1,0 +1,4 @@
+Get-ADUser e0056585 -properties CN, Company, Department, EmailAddress, SamAccountName, Enabled, physicalDeliveryOfficeName
+
+systeminfo /s workstation1 /fo csv | ConvertFrom-CSV
+	

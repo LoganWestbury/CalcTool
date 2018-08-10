@@ -1,0 +1,21 @@
+﻿<ProjectState>
+  <Version>1.0</Version>
+  <FileID>cc7b3e6d-c7b5-4b2d-ba5d-1960454dc075</FileID>
+  <OpenFolders>
+    <Folder>functions</Folder>
+    <Folder>functions\PSLogging</Folder>
+  </OpenFolders>
+  <OpenFiles>
+    <File>Main.ps1</File>
+    <File>functions\populateMainMenu.psm1</File>
+    <File>functions\showMenuReusable.psm1</File>
+    <File>functions\displayVersion.psm1</File>
+    <File>functions\pressAnyKey.psm1</File>
+    <File>functions\lockoutLocationFinder.psm1</File>
+    <File>functions\scanADForLockedOutUsers.psm1</File>
+    <File>functions\textSeperateLine.psm1</File>
+    <File>functions\remoteShutdownChecker.psm1</File>
+    <File>functions\queryActiveDirectoryUser.psm1</File>
+    <File>functions\PSLogging\PSLogging.psm1</File>
+  </OpenFiles>
+</ProjectState>

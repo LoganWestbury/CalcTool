@@ -1,0 +1,7 @@
+
+
+zz41264it
+
+[System.Net.Dns]::GetHostAddresses("zz41264it")
+
+[System.Net.Dns]::GetHostAddress("10.5.1.7").Hostname

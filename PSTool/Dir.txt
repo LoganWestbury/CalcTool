@@ -1,0 +1,188 @@
+CD 'C:\Users\e0056585\Documents\PS\PSTool\'
+
+
+Get-ADUser e0056585 -properties PasswordExpired, PasswordLastSet, PasswordNeverExpires
+
+
+
+
+
+AccountExpirationDate              :
+accountExpires                     : 9223372036854775807
+AccountLockoutTime                 :
+AccountNotDelegated                : False
+adminCount                         : 1
+AllowReversiblePasswordEncryption  : False
+BadLogonCount                      : 0
+badPasswordTime                    : 131311085690129773
+badPwdCount                        : 0
+CannotChangePassword               : False
+CanonicalName                      : aco.arnoldclark.com/ACA
+                                     Users/ACAMigration/GroupOperations/ACAOrdinary/IT/Support/Logan Westbury
+Certificates                       : {System.Security.Cryptography.X509Certificates.X509Certificate,
+                                     System.Security.Cryptography.X509Certificates.X509Certificate,
+                                     System.Security.Cryptography.X509Certificates.X509Certificate}
+City                               :
+CN                                 : Logan Westbury
+codePage                           : 0
+Company                            : Arnold Clark Automobiles Ltd
+Country                            :
+countryCode                        : 0
+Created                            : 07/09/2016 09:08:02
+createTimeStamp                    : 07/09/2016 09:08:02
+Deleted                            :
+Department                         : IT Support
+Description                        : Apprentice IT Support Analyst
+DisplayName                        : Logan Westbury
+DistinguishedName                  : CN=Logan Westbury,OU=Support,OU=IT,OU=ACAOrdinary,OU=GroupOperations,OU=ACAMigrati
+                                     on,OU=ACA Users,DC=aco,DC=arnoldclark,DC=com
+Division                           :
+DoesNotRequirePreAuth              : False
+dSCorePropagationData              : {04/10/2016 16:02:26, 04/10/2016 14:27:49, 04/10/2016 13:55:04, 27/09/2016
+                                     09:40:22...}
+EmailAddress                       : Logan.Westbury@arnoldclark.com
+EmployeeID                         :
+EmployeeNumber                     :
+Enabled                            : True
+Fax                                :
+GivenName                          : Logan
+HomeDirectory                      : \\aco.arnoldclark.com\fs\Home\Users\e0056585
+HomedirRequired                    : False
+HomeDrive                          : H:
+homeMDB                            : CN=AC-DAG01-14,CN=Databases,CN=Exchange Administrative Group
+                                     (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=Microsoft Exchange
+                                     On-Premise,CN=Microsoft
+                                     Exchange,CN=Services,CN=Configuration,DC=aco,DC=arnoldclark,DC=com
+HomePage                           :
+HomePhone                          :
+Initials                           :
+instanceType                       : 4
+isDeleted                          :
+LastBadPasswordAttempt             : 09/02/2017 10:09:29
+LastKnownParent                    :
+lastLogoff                         : 0
+lastLogon                          : 131311085740442426
+LastLogonDate                      : 02/02/2017 08:15:49
+lastLogonTimestamp                 : 131304969498304560
+legacyExchangeDN                   : /o=Microsoft Exchange On-Premise/ou=Exchange Administrative Group
+                                     (FYDIBOHF23SPDLT)/cn=Recipients/cn=6991190a19d7453eb0e226108f0
+LockedOut                          : False
+lockoutTime                        : 0
+logonCount                         : 373
+LogonWorkstations                  :
+mail                               : Logan.Westbury@arnoldclark.com
+mailNickname                       : e0056585
+Manager                            :
+mDBOverHardQuotaLimit              : 524288
+mDBOverQuotaLimit                  : 513803
+mDBStorageQuota                    : 471860
+mDBUseDefaults                     : False
+MemberOf                           : {CN=IT Support,OU=Migrated JRW Groups,OU=ACA Groups,DC=aco,DC=arnoldclark,DC=com,
+                                     CN=DG-IT-SupportDesk,OU=DistributionGroups,OU=ACAExchange,DC=aco,DC=arnoldclark,DC
+                                     =com, CN=ITSupportDFS,OU=ACA Groups,DC=aco,DC=arnoldclark,DC=com,
+                                     CN=IT-Support,OU=ACA Groups,DC=aco,DC=arnoldclark,DC=com}
+MNSLogonAccount                    : False
+MobilePhone                        :
+Modified                           : 02/02/2017 08:15:55
+modifyTimeStamp                    : 02/02/2017 08:15:55
+msDS-User-Account-Control-Computed : 0
+msExchArchiveQuota                 : 104857600
+msExchArchiveWarnQuota             : 94371840
+msExchCalendarLoggingQuota         : 6291456
+msExchDelegateListBL               : {CN=DG-IT-Support,OU=SharedMailboxes,OU=ACAExchange,DC=aco,DC=arnoldclark,DC=com}
+msExchDumpsterQuota                : 31457280
+msExchDumpsterWarningQuota         : 20971520
+msExchELCMailboxFlags              : 130
+msExchHomeServerName               : /o=Microsoft Exchange On-Premise/ou=Exchange Administrative Group
+                                     (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=S000202PL
+msExchMailboxGuid                  : {93, 235, 222, 250...}
+msExchMailboxSecurityDescriptor    : System.DirectoryServices.ActiveDirectorySecurity
+msExchOmaAdminWirelessEnable       : 4
+msExchPoliciesIncluded             : {e0449013-084b-4405-8000-06b9186f37b8, {26491cfc-9e50-4857-861b-0cb8df22b5d7}}
+msExchRBACPolicyLink               : CN=Default Role Assignment Policy,CN=Policies,CN=RBAC,CN=Microsoft Exchange
+                                     On-Premise,CN=Microsoft
+                                     Exchange,CN=Services,CN=Configuration,DC=aco,DC=arnoldclark,DC=com
+msExchRecipientDisplayType         : 1073741824
+msExchRecipientTypeDetails         : 1
+msExchTextMessagingState           : {302120705, 16842751}
+msExchUMDtmfMap                    : {emailAddress:5642693782879, lastNameFirstName:9378287956426,
+                                     firstNameLastName:5642693782879}
+msExchUserAccountControl           : 0
+msExchUserCulture                  : en-GB
+msExchVersion                      : 88218628259840
+msExchWhenMailboxCreated           : 07/09/2016 09:08:03
+msRTCSIP-DeploymentLocator         : SRV:
+msRTCSIP-FederationEnabled         : True
+msRTCSIP-InternetAccessEnabled     : True
+msRTCSIP-Line                      : tel:+441415550406
+msRTCSIP-OptionFlags               : 385
+msRTCSIP-PrimaryHomeServer         : CN=Lc Services,CN=Microsoft,CN=1:1,CN=Pools,CN=RTC
+                                     Service,CN=Services,CN=Configuration,DC=aco,DC=arnoldclark,DC=com
+msRTCSIP-PrimaryUserAddress        : sip:Logan.Westbury@arnoldclark.com
+msRTCSIP-UserEnabled               : True
+msRTCSIP-UserPolicies              : {0=83904064}
+msRTCSIP-UserRoutingGroupId        : {149, 230, 15, 29...}
+Name                               : Logan Westbury
+nTSecurityDescriptor               : System.DirectoryServices.ActiveDirectorySecurity
+ObjectCategory                     : CN=Person,CN=Schema,CN=Configuration,DC=aco,DC=arnoldclark,DC=com
+ObjectClass                        : user
+ObjectGUID                         : c6754eb2-963d-4c1f-be59-8c0b9f0b72bc
+objectSid                          : S-1-5-21-2432804934-1552621410-843620848-39823
+Office                             : ACA Ordinary
+OfficePhone                        :
+Organization                       :
+OtherName                          :
+PasswordExpired                    : False
+PasswordLastSet                    : 16/01/2017 08:02:09
+PasswordNeverExpires               : False
+PasswordNotRequired                : False
+physicalDeliveryOfficeName         : ACA Ordinary
+POBox                              :
+PostalCode                         :
+PrimaryGroup                       : CN=Domain Users,OU=Domain User Groups,OU=ACA Groups,DC=aco,DC=arnoldclark,DC=com
+primaryGroupID                     : 513
+ProfilePath                        :
+ProtectedFromAccidentalDeletion    : False
+proxyAddresses                     : {sip:Logan.Westbury@arnoldclark.com, smtp:Logan.Westbury@arnoldclark.co.uk,
+                                     SMTP:Logan.Westbury@arnoldclark.com}
+pwdLastSet                         : 131290273295506716
+SamAccountName                     : e0056585
+sAMAccountType                     : 805306368
+ScriptPath                         :
+sDRightsEffective                  : 15
+ServicePrincipalNames              : {}
+showInAddressBook                  : {CN=Mailboxes(VLV),CN=All System Address Lists,CN=Address Lists
+                                     Container,CN=Microsoft Exchange On-Premise,CN=Microsoft
+                                     Exchange,CN=Services,CN=Configuration,DC=aco,DC=arnoldclark,DC=com, CN=All
+                                     Mailboxes(VLV),CN=All System Address Lists,CN=Address Lists
+                                     Container,CN=Microsoft Exchange On-Premise,CN=Microsoft
+                                     Exchange,CN=Services,CN=Configuration,DC=aco,DC=arnoldclark,DC=com, CN=All
+                                     Recipients(VLV),CN=All System Address Lists,CN=Address Lists
+                                     Container,CN=Microsoft Exchange On-Premise,CN=Microsoft
+                                     Exchange,CN=Services,CN=Configuration,DC=aco,DC=arnoldclark,DC=com, CN=Default
+                                     Global Address List,CN=All Global Address Lists,CN=Address Lists
+                                     Container,CN=Microsoft Exchange On-Premise,CN=Microsoft
+                                     Exchange,CN=Services,CN=Configuration,DC=aco,DC=arnoldclark,DC=com...}
+SID                                : S-1-5-21-2432804934-1552621410-843620848-39823
+SIDHistory                         : {}
+SmartcardLogonRequired             : False
+sn                                 : Westbury
+State                              :
+StreetAddress                      :
+Surname                            : Westbury
+thumbnailPhoto                     : {255, 216, 255, 224...}
+Title                              : Apprentice IT Support Analyst
+TrustedForDelegation               : False
+TrustedToAuthForDelegation         : False
+UseDESKeyOnly                      : False
+userAccountControl                 : 512
+
+UserPrincipalName                  : e0056585@aco.arnoldclark.com
+uSNChanged                         : 494963306
+uSNCreated                         : 261090609
+whenChanged                        : 02/02/2017 08:15:55
+whenCreated                        : 07/09/2016 09:08:02
+
+
+
+PS C:\Users\e0056585\Documents\PS\PSTool>

@@ -1,0 +1,30 @@
+﻿<Project>
+  <Version>1.1</Version>
+  <FileID>cc7b3e6d-c7b5-4b2d-ba5d-1960454dc075</FileID>
+  <ProjectType>0</ProjectType>
+  <Folders>
+    <Folder>dictionary</Folder>
+    <Folder>functions</Folder>
+    <Folder>functions\PSLogging</Folder>
+  </Folders>
+  <Files>
+    <File ReferenceName="" Build="0">Startup.pss</File>
+    <File ReferenceName="Call-Main_ps1" Build="0" CommandExtension="False">Main.ps1</File>
+    <File ReferenceName="" Build="1">functions\showMenuReusable.psm1</File>
+    <File ReferenceName="" Build="1">functions\displayVersion.psm1</File>
+    <File ReferenceName="" Build="1">functions\populateMainMenu.psm1</File>
+    <File ReferenceName="" Build="1">functions\textSeperateLine.psm1</File>
+    <File ReferenceName="" Build="1">functions\pressAnyKey.psm1</File>
+    <File ReferenceName="" Build="1">functions\remoteShutdownChecker.psm1</File>
+    <File ReferenceName="" Build="1">functions\lockoutLocationFinder.psm1</File>
+    <File ReferenceName="" Build="1">functions\scanADForLockedOutUsers.psm1</File>
+    <File ReferenceName="" Build="1">functions\queryActiveDirectoryUser.psm1</File>
+    <File ReferenceName="" Build="1">functions\logEmail.psm1</File>
+    <File ReferenceName="" Build="1">functions\logError.psm1</File>
+    <File ReferenceName="" Build="1">functions\logFinish.psm1</File>
+    <File ReferenceName="" Build="1">functions\logStart.psm1</File>
+    <File ReferenceName="" Build="1">functions\logWrite.psm1</File>
+    <File ReferenceName="" Build="1">functions\PSLogging\PSLogging.psd1</File>
+    <File ReferenceName="" Build="1">functions\PSLogging\PSLogging.psm1</File>
+  </Files>
+</Project>
